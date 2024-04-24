@@ -2,7 +2,6 @@
 Действие | Команда 
 === | ===
 Инициализируем | git init
-
 Добавляем к контролю | git add README.md
 Добавляем комментарий | git commit -m "first commit"
 Выбор ветки | git branch -M main
