@@ -10,9 +10,9 @@
 
 ```mermaid
     graph LR;
-        A-->B;
-        A-->C;
-        B-->D;
-        C-->D;
+        untracked -- "git add" --> staged;
+        staged    -- "git commit" --> tracked/comitted;
+        tracked/comitted -- "git push" --> tracked;
+
 ```
 
